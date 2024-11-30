@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(7, 92px);
+  grid-template-rows: repeat(6, 90px);
+  gap: 5px;
+  background-color: blue;
+  border: solid black 5px;
+  border-radius: 15px;
+}
+#result {
+  text-align: center;
+}
+.container {
+  background-color: black;
+  height: 100px;
+  width: 800px;
+  color: aqua;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#status-message {
+  text-align: center;
+}
+#result {
+  text-align: center;
+}
+.sqr {
+  width: 92px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: rgb(244, 248, 237);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player-one {
+  background-color: red;
+  border-radius: 50px;
+}
+.player-two {
+  background-color: yellow;
+  border-radius: 50px;
+}
